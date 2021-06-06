@@ -1,0 +1,712 @@
+@charset "UTF-8";
+/* HTML CORTAZAR */
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+.main__section1 {
+  width: 100vw;
+  height: 430px;
+  background-image: url(/img/Cortazar/cortazarprincipal.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px; }
+  .main__section1 .main__section1__titulo {
+    color: black;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    padding: 30px 20px; }
+
+.main__section2 {
+  width: 100vw;
+  height: 350px;
+  padding: 50px; }
+  .main__section2 .main__section2__titulo {
+    grid-area: texto; }
+  .main__section2 .main__section2__img {
+    background-image: url(/img/Cortazar/Cortazar2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: imagen; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 30px;
+  grid-template-areas: "texto imagen" "texto imagen"; }
+
+.main__section3 {
+  width: 100vw;
+  height: 150px;
+  background-image: url(/img/Cortazar/libros/papelfondo.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  text-shadow: 2px 2px 2px white; }
+
+/* SECTION 4 */
+.grid-galeria-cortazar {
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 10px 10px;
+  padding: 0px 130px 50px;
+  margin-bottom: 30px; }
+
+.grid-galeria-cortazar :hover {
+  transform: scale(1.1);
+  transition: all 0.3s; }
+
+/* SECTION 5 */
+.main__section5 {
+  width: 100vw;
+  padding: 20px 20px;
+  height: 330px;
+  background-image: url(/img/Cortazar/libros/madera.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  border-radius: 20px; }
+  .main__section5 .main__section5__titulo {
+    grid-area: texto;
+    color: black; }
+  .main__section5 .main__section5__img {
+    background-image: url(/img/Cortazar/libros/rayuela2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    grid-area: imagen;
+    border-radius: 30px; }
+
+.grid-containerDos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  gap: 0px 30px;
+  grid-template-areas: "imagen texto" "imagen texto"; }
+
+.titulosh2 {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 10px;
+  color: black;
+  font-family: 'Mate SC', serif; }
+
+/* html borgess */
+.box1 {
+  width: 100vw;
+  height: 420px;
+  background-image: url(/img/Borges/borgesprincipal.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px; }
+  .box1 .box1_titulo {
+    margin-left: 120px;
+    margin-bottom: 100px;
+    color: black;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    padding: 30px 20px;
+    animation: text 3s 1; }
+
+@keyframes text {
+  0% {
+    color: black;
+    /* margin-bottom: 10px; */
+    letter-spacing: 20px; }
+  30% {
+    letter-spacing: 40px;
+    /* margin-bottom: 30px; */ }
+  85% {
+    letter-spacing: 10px;
+    /* margin-bottom: 5px; */ } }
+
+.primerTexto {
+  width: 100%;
+  height: 100px;
+  padding: 70px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.titulos {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  letter-spacing: 10px;
+  font-size: 2rem;
+  font-family: 'Mate SC', serif; }
+
+.imagenes-flex {
+  display: flex;
+  width: 100vw;
+  height: 200px;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around; }
+
+.box3 {
+  width: 100%;
+  height: 300px;
+  opacity: 0.9;
+  border-radius: 20px;
+  background-image: url(../img/Borges/madera9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .box3 .grid-item1 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/ALEPH.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box3 .grid-item2 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/FICCIONES.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box3 .grid-item3 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/LIBRODEARENA.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.box5 {
+  width: 100%;
+  height: 300px;
+  opacity: 0.9;
+  border-radius: 20px;
+  background-image: url(/img/Borges/madera3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .box5 .grid-item4 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/TIGRE.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box5 .grid-item5 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/ELHACEDOR.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box5 .grid-item6 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/ELOTRO.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.box7 {
+  width: 100%;
+  height: 300px;
+  opacity: 0.9;
+  border-radius: 20px;
+  background-image: url(/img/Borges/madera5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .box7 .grid-item7 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/ETERNIDAD.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box7 .grid-item8 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/TAMAÑO.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box7 .grid-item9 {
+    width: 15vw;
+    background-image: url(/img/Borges/LIBROS/INQUISICIONES.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+/* HTML SABATO */
+.bodysabato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, white, grey); }
+
+.grid-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  border-radius: 4px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.grid-texto {
+  width: 100%;
+  height: 900px;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  grid-template-rows: 250px 300px 300px;
+  grid-template-areas: "texto texto" "imagenes imagenes" "imagenes imagenes";
+  gap: 20px; }
+
+.grid-galeria {
+  grid-area: imagenes; }
+
+.container-grid {
+  grid-area: texto;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translate(-40%, -40%);
+  width: 100%; }
+  .container-grid .container-grid span {
+    text-transform: uppercase;
+    display: block; }
+
+.text1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  margin-bottom: 25px;
+  position: relative;
+  animation: text 3s 1; }
+
+.text2 {
+  font-size: 15px;
+  color: black;
+  flex-wrap: wrap; }
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: 10px; }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -10px; }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -12px; } }
+
+.librosGrid {
+  margin-top: 30px;
+  color: black;
+  padding: 15px;
+  width: 100%;
+  height: 1500px;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  grid-template-rows: 500px 500px 500px;
+  grid-template-areas: "texto imagen1" "texto imagen2" "texto imagen3";
+  gap: 20px; }
+
+.seccion-libros {
+  grid-area: texto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: stretch; }
+  .seccion-libros .seccion-libros section {
+    font-size: 22px; }
+  .seccion-libros .seccion-libros h2 {
+    color: black;
+    border-bottom: solid 1px white;
+    margin: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 55px; }
+
+.imagen-lateral {
+  grid-area: imagen1;
+  background-image: url(/img/Sabato/tunel.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.imagen-lateral-dos {
+  grid-area: imagen2;
+  background-image: url(/img/Sabato/sobrehyt.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.imagen-lateral-tres {
+  grid-area: imagen3;
+  background-image: url(/img/Sabato/abbadon.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.video-flex {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-right: 100px; }
+
+/* HTML CONTACTO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/img/pexels.jpeg);
+  background-size: cover; }
+  .contact .content {
+    max-width: 800px;
+    text-align: center; }
+  .contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    text-shadow: 2px 2px 5px #e65908; }
+  .contact .content p {
+    font-weight: 300;
+    color: black; }
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; }
+  .container .container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column; }
+  .container .container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex; }
+  .container .container .contactInfo .box .icon img {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px; }
+  .container .container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300; }
+  .container .container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: #b35313; }
+
+.contactForm {
+  width: 50%;
+  padding: 40px;
+  background: #fff; }
+
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500; }
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px; }
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none; }
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666; }
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px; }
+
+@media (max-widht: 991px) {
+  .contact {
+    padding: 50px; }
+  .container {
+    flex-direction: column; }
+  .container .contactInfo {
+    margin-bottom: 40px; }
+  .container .contactInfo
+.contactForm {
+    width: 100%; } }
+
+/* INDEX HTML */
+.logotipo {
+  width: 60px;
+  margin-right: 50px;
+  border-radius: 100px; }
+
+.navbar-dark {
+  background-color: rgba(0, 0, 0, 0.876);
+  color: #f5ebeb; }
+
+.espacio {
+  padding: 50px 0; }
+
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  bottom: 20%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  text-align: left; }
+
+.btn-light {
+  color: white;
+  background-color: transparent;
+  border-color: thistle;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.iconos__redes__header {
+  width: 40px;
+  height: 40px;
+  padding: 1px;
+  margin: 10px , 5px; }
+
+.banner-video {
+  background-image: url(../img/imagenplay.jpg);
+  padding: 200px 0;
+  position: relative;
+  text-align: center; }
+
+.banner-video img {
+  width: 80px;
+  height: 80px;
+  position: relative; }
+
+footer {
+  /* margin-top: 30vh; */
+  width: 100%;
+  height: 55vh;
+  background-color: #1b1919;
+  color: #e4c7c7; }
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 5px; }
+
+.container-footer img {
+  width: 60px;
+  margin-right: 5px; }
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.column2 h3 {
+  margin-bottom: 5px; }
+
+.column2 .row {
+  margin-top: 5px; }
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.grid-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  border-radius: 4px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.grid-galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 10px;
+  padding: 20px; }
+
+.grid-galeria :hover {
+  transform: scale(1.1);
+  transition: all 0.3s; }
+
+/*    HTML BORGES */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif; }
+
+.grid-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  border-radius: 4px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.grid-texto {
+  width: 100%;
+  height: 900px;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  grid-template-rows: 250px 300px 300px;
+  grid-template-areas: "texto texto" "imagenes imagenes" "imagenes imagenes";
+  gap: 20px; }
+
+.grid-galeria {
+  grid-area: imagenes; }
+
+.container-grid {
+  grid-area: texto;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translate(-40%, -40%);
+  width: 100%; }
+
+.container-grid span {
+  text-transform: uppercase;
+  display: block; }
+
+.text1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  margin-bottom: 25px;
+  position: relative;
+  animation: text 3s 1; }
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: 10px; }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -10px; }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -12px; } }
+
+.librosGrid {
+  color: black;
+  padding: 15px;
+  width: 100%;
+  height: 1500px;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  grid-template-rows: 500px 500px 600px;
+  grid-template-areas: "texto imagen1" "texto imagen2" "texto imagen3";
+  gap: 20px; }
+
+.seccion-libros {
+  grid-area: texto; }
+
+.seccion-libros {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: stretch; }
+
+.seccion-libros section {
+  font-size: 22px; }
+
+.seccion-libros h2 {
+  color: black;
+  margin: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 55px; }
+
+.imagen-aside {
+  grid-area: imagen1;
+  background-image: url(img/Borges/elaleph.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(2deg); }
+
+.imagen-aside-dos {
+  grid-area: imagen2;
+  background-image: url(img/Borges/ficciones.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-2deg); }
+
+.imagen-aside-tres {
+  grid-area: imagen3;
+  background-image: url(img/Borges/libroarena.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
