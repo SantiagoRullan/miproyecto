@@ -1,0 +1,118 @@
+    /* HTML CORTAZAR */
+    .main__section1{
+        width: 100vw;
+        height: 430px;
+        background-image: url(/img/Cortazar/cortazarprincipal.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .main__section1__titulo{
+            color: rgb(0, 0, 0);
+            letter-spacing: 20px;
+            word-spacing: 10px;
+            padding: 30px 20px;
+        }
+    }
+    
+    
+    .main__section2{
+        width: 100vw;
+        height: 350px;
+        padding: 50px;
+
+        .main__section2__titulo{
+            grid-area: texto;
+        }
+        .main__section2__img{
+            background-image: url(/img/Cortazar/Cortazar2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            grid-area: imagen;
+        }
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 30px;
+        grid-template-areas:
+          "texto imagen"
+          "texto imagen";
+      }
+   
+    .main__section3{
+       
+        width: 100vw;
+        height: 150px;
+        background-image: url(/img/Cortazar/libros/papelfondo.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: black;
+        text-shadow: 2px 2px 2px white;
+    }
+                                                /* SECTION 4 */
+    .grid-galeria-cortazar{
+       border-radius: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 300px 300px;
+        gap: 10px 10px;
+        padding: 0px 130px 50px;
+        margin-bottom: 30px;
+        }
+      
+    .grid-galeria-cortazar :hover{
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+                                                /* SECTION 5 */
+      .main__section5{
+        width: 100vw;
+        padding: 20px 20px;
+        height: 330px;
+        background-image: url(/img/Cortazar/libros/madera.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 50px;
+        border-radius: 20px;
+
+        .main__section5__titulo{
+            grid-area: texto;
+            color: black;
+        }
+        .main__section5__img{
+            background-image: url(/img/Cortazar/libros/rayuela2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 200px 300px;
+            grid-area: imagen;
+            border-radius: 30px;
+        }
+    }
+    .grid-containerDos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr;
+        gap: 0px 30px;
+        grid-template-areas:
+          "imagen texto"
+          "imagen texto";
+      }
+  
+    .titulosh2{
+        text-align: center;
+        font-size: 35px;
+        letter-spacing: 10px;
+        color: black;
+        font-family: 'Mate SC', serif;
+    }

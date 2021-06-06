@@ -1,0 +1,35 @@
+.text1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 25px;
+    position: relative;
+    animation: text 3s 1;
+}
+.text2{
+font-size: 15px;
+color: rgb(0, 0, 0);
+flex-wrap: wrap;
+}
+@keyframes text{
+    0%{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -10px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -12px;
+    }
+}
+CITAS!
+CITA 1-
+«[…] vi la circulación de mi oscura sangre, vi el engranaje del amor y la modificación de la muerte, vi el Aleph, desde todos los puntos, vi en el Aleph la tierra, y en la tierra otra vez el Aleph y en el Aleph la tierra, vi mi cara y mis vísceras, vi tu cara, y sentí vértigo y lloré, porque mis ojos habían visto ese objeto secreto y conjetural, cuyo nombre usurpan los hombres, pero que ningún hombre ha mirado: el inconcebible universo.» (Fragmento del cuento «El Aleph», en «El Aleph», 1949)
+CITA 2-
+«A mí se me hace cuento que empezó Buenos Aires: la juzgo tan eterna como el agua y como el aire.» (Fragmento del poema «Fundación Mítica de Buenos Aires», en «Cuaderno San Martín», 1929)
+CITA 3-
+«El tiempo es la sustancia de que estoy hecho. El tiempo es un río que me arrebata, pero yo soy el río; es un tigre que me destroza, pero yo soy el tigre; es un fuego que me consume, pero yo soy el fuego. El mundo, desgraciadamente, es real; yo, desgraciada­mente, soy Borges.» (Fragmento del ensayo «Nueva refutación del tiempo», 1947).

@@ -1,0 +1,176 @@
+  /* html borgess */
+
+
+  .box1{
+    width: 100vw;
+    height: 420px;
+    background-image: url(/img/Borges/borgesprincipal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    align-items: center;
+    margin-bottom: 25px;
+        .box1_titulo{
+            margin-left: 120px;
+            margin-bottom: 100px;
+            color: rgb(0, 0, 0);
+            letter-spacing: 10px;
+            word-spacing: 10px;
+            padding: 30px 20px;
+            animation: text 3s 1;
+        }
+}
+
+
+
+@keyframes text{
+    0%{
+        color: rgb(0, 0, 0);
+        /* margin-bottom: 10px; */
+        letter-spacing: 20px;
+    }
+    30%{
+        letter-spacing: 40px;
+        /* margin-bottom: 30px; */
+    }
+    85%{
+        letter-spacing: 10px;
+        /* margin-bottom: 5px; */
+    }
+    }
+
+    .primerTexto{
+    width: 100%;
+    height: 100px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.titulos{
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 10px;
+    font-size: 2rem;
+    font-family: 'Mate SC', serif;
+    
+}
+.imagenes-flex{
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    
+}
+.box3{
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+    border-radius: 20px;
+    background-image: url(../img/Borges/madera9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .grid-item1{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/ALEPH.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .grid-item2{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/FICCIONES.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .grid-item3{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/LIBRODEARENA.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.box5{
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+    border-radius: 20px;
+    background-image: url(/img/Borges/madera3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .grid-item4{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/TIGRE.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .grid-item5{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/ELHACEDOR.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .grid-item6{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/ELOTRO.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.box7{
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+    border-radius: 20px;
+    background-image: url(/img/Borges/madera5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .grid-item7{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/ETERNIDAD.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .grid-item8{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/TAMAÑO.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .grid-item9{
+        width: 15vw;
+        background-image: url(/img/Borges/LIBROS/INQUISICIONES.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
