@@ -130,7 +130,7 @@ footer{
 .main__section1{
     width: 100vw;
     height: 430px;
-    background-image: url("/img/Cortazar/cortazarprincipal.JPEG");
+    background-image: url(../img/Cortazar/cortazarprincipal.JPEG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ footer{
     grid-area: texto;
 }
 .main__section2__img{
-    background-image: url(/img/Cortazar/Cortazar2.jpg);
+    background-image: url(../img/Cortazar/Cortazar2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,7 +175,7 @@ footer{
    
     width: 100vw;
     height: 150px;
-    background-image: url(/img/Cortazar/libros/papelfondo.jpg);
+    background-image: url(../img/Cortazar/papelfondo.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -204,7 +204,7 @@ footer{
     width: 100vw;
     padding: 20px 20px;
     height: 330px;
-    background-image: url(/img/Cortazar/libros/madera.jpg);
+    background-image: url(../img/Cortazar/madera.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
@@ -224,7 +224,7 @@ footer{
     color: black;
 }
 .main__section5__img{
-    background-image: url(/img/Cortazar/libros/rayuela2.jpg);
+    background-image: url(../img/Cortazar/rayuela2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200px 300px;
@@ -366,21 +366,21 @@ gap: 20px;
 }
 .imagen-lateral{
     grid-area: imagen1;
-    background-image: url(/img/Sabato/tunel.jpg);
+    background-image: url(../img/Sabato/tunel.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .imagen-lateral-dos{
 grid-area: imagen2;
-background-image: url(/img/Sabato/sobrehyt.jpg);
+background-image: url(../img/Sabato/sobrehyt.jpg);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 }
 .imagen-lateral-tres{
     grid-area: imagen3;
-background-image: url(/img/Sabato/abbadon.jpg);
+background-image: url(../img/Sabato/abbadon.jpg);
 background-position:center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -401,7 +401,7 @@ background-repeat: no-repeat;
   .box1{
     width: 100vw;
     height: 420px;
-    background-image: url(/img/Borges/borgesprincipal.jpg);
+    background-image: url(../img/Borges/borgesprincipal.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -490,14 +490,14 @@ background-repeat: no-repeat;
 }
 .grid-item2{
     width: 15vw;
-    background-image: url(/img/Borges/LIBROS/FICCIONES.jpg);
+    background-image: url(../img/Borges/FICCIONES.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .grid-item3{
     width: 15vw;
-    background-image: url(/img/Borges/LIBROS/LIBRODEARENA.jpg);
+    background-image: url(../img/Borges/LIBRODEARENA.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -507,28 +507,28 @@ background-repeat: no-repeat;
     height: 300px;
     opacity: 0.9;
     border-radius: 20px;
-    background-image: url(/img/Borges/madera3.jpg);
+    background-image: url(../img/Borges/madera3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .grid-item4{
     width: 15vw;
-    background-image: url(/img/Borges/LIBROS/TIGRE.jpg);
+    background-image: url(../img/Borges/LIBROS/TIGRE.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .grid-item5{
     width: 15vw;
-    background-image: url(/img/Borges/LIBROS/ELHACEDOR.jpg);
+    background-image: url(../img/Borges/ELHACEDOR.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .grid-item6{
     width: 15vw;
-    background-image: url(/img/Borges/LIBROS/ELOTRO.jpg);
+    background-image: url(../img/Borges/ELOTRO.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -539,28 +539,28 @@ background-repeat: no-repeat;
     height: 300px;
     opacity: 0.9;
     border-radius: 20px;
-    background-image: url(/img/Borges/madera5.jpg);
+    background-image: url(../img/Borges/madera5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .grid-item7{
     width: 15vw;
-    background-image: url(/img/Borges/LIBROS/ETERNIDAD.jpg);
+    background-image: url(../img/Borges/ETERNIDAD.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .grid-item8{
     width: 15vw;
-    background-image: url(/img/Borges/LIBROS/TAMAÑO.jpg);
+    background-image: url(../img/Borges/TAMAÑO.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .grid-item9{
     width: 15vw;
-    background-image: url(/img/Borges/LIBROS/INQUISICIONES.jpg);
+    background-image: url(../img/Borges/INQUISICIONES.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
