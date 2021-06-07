@@ -130,7 +130,7 @@ footer{
 .main__section1{
     width: 100vw;
     height: 430px;
-    background-image: url(../img/Cortazar/cortazarprincipal.JPEG);
+    background-image: url(../img/Cortazar/cortazarprincipal.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -514,7 +514,7 @@ background-repeat: no-repeat;
 }
 .grid-item4{
     width: 15vw;
-    background-image: url(../img/Borges/LIBROS/TIGRE.jpg);
+    background-image: url(../img/Borges/TIGRE.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
