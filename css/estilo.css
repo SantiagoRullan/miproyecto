@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
 
  /* INDEX HTML */
 
@@ -57,7 +57,6 @@
     position: relative;
 }
 footer{
-    /* margin-top: 30vh; */
     width: 100%;
     height: 55vh;
     background-color: rgb(27, 25, 25);
@@ -313,7 +312,6 @@ flex-wrap: wrap;
 }
 @keyframes text{
     0%{
-        color: rgb(0, 0, 0);
         margin-bottom: 10px;
     }
     30%{
@@ -425,17 +423,13 @@ background-repeat: no-repeat;
 
 @keyframes text{
     0%{
-        color: rgb(0, 0, 0);
-        /* margin-bottom: 10px; */
         letter-spacing: 20px;
     }
     30%{
         letter-spacing: 40px;
-        /* margin-bottom: 30px; */
     }
     85%{
         letter-spacing: 10px;
-        /* margin-bottom: 5px; */
     }
     }
 
@@ -582,7 +576,7 @@ background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../img/pexels.jpeg);
+    background-image: url(../img/Cortazar/pexels.jpeg);
     background-size: cover;
 
 }
@@ -682,7 +676,7 @@ background-repeat: no-repeat;
     width: 100%;
     margin-bottom: 10px; }
 
- /*  */
+ /* media queries contact */
 @media (max-widht:991px)
 {
     .contact{
@@ -699,6 +693,55 @@ background-repeat: no-repeat;
     {
         width: 100%;
     }
-
+}
+@media only screen 
+   and (max-width : 320px) {
     
+.main__section1{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.main__section1 .main__section1__titulo{
+    font-size: 5em;
+}
+
+.main__section2{
+    height: 20%;
+    background-color: rgba(236, 227, 227, 0.418);
+    color: rgb(161, 78, 0);
+
+}
+.main__section2 .tittle{
+    color: rgb(185, 104, 10);
+    text-shadow: 2px 2px 2px rgb(255, 217, 0);
+    font-size: 2em;
+}
+.main__section3{
+    height: 40%;
+    padding: 20px;
+}
+                                            /* SECTION 4 */
+.grid-galeria-cortazar{
+    display: grid;
+    grid-template-columns: 8rem 8rem ;
+    grid-template-rows: 10rem 10rem 10rem 10rem;
+    gap: 1em 1em;
+    padding: 20px;
+    }
+                                            /* SECTION 5 */
+  .main__section5{
+    height: 30%;
+}
+.grid-containerDos {
+    display: flex;
+   flex-direction: column;
+  
+  }
+}  
+footer{
+    height: 55%;
+    background: rgb(0, 0, 0);
+}
 }
