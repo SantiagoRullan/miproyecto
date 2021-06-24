@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
  /* INDEX HTML */
 
-
+ body{
+    overflow-x: hidden;
+}
 .logotipo{
     width: 60px;
     margin-right:50px ;
@@ -585,6 +587,7 @@ height: 400px;
 @media (max-width: 480px){
     /* media queries hasta 480px tamaño mobile */
     /* index */
+    
     .logotipo{
         width: 40px;
         margin-right: 0px ;
