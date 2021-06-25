@@ -1,20 +1,32 @@
 {
   "name": "proyecto4",
   "version": "1.0.0",
-  "description": "",
+  "description": "mi primer proyecto en github\r subo mi proyecto a git hub",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
-    "build-css": 
-    "node-sass --include-path scss scss/index.scss css/pruebacss.css",
+    "build-css": "node-sass --include-path scss scss/index.scss css/pruebacss.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
   },
-  "author": "",
+  "author": "santiagorullan",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoRullan/miproyecto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SantiagoRullan/miproyecto/issues"
+  },
+  "homepage": "https://github.com/SantiagoRullan/miproyecto#readme",
+  "keywords": [
+    "example",
+    "package.json",
+    "npm",
+    "init"
+  ]
 }
